@@ -1,0 +1,21 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - conda=4.10.0
+  - pip
+  - tini
+  - notebook=6.3.0
+  - widgetsnbextension=3.5
+  - pytables=3.6
+  - cloudpickle=1.6
+  - ipympl=0.7
+  - matplotlib-base=3.4
+  - ipywidgets=7.6
+  - dill=0.3
+  - ipyleaflet
+  - ipywebrtc
+  - bqplot
+  - voila
+prefix: /opt/conda
